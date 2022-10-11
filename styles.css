@@ -1,0 +1,41 @@
+/* ID selector */
+#title {
+    background-color: red;
+}
+
+/* Class Selector */
+.list_items {
+    color:chartreuse;
+}
+
+/* Type selector */
+h1{
+    color: blue;
+}
+
+/* HTML element with multiple classes */
+.article.text {
+    background-color: pink;
+    text-align: center;
+}
+
+/* Two classes with shared rules */
+.text {
+    font-style: italic; 
+}
+/* Two classes with shared rules */
+.ingredients, .steps {
+    font-style: italic; text-align:center;
+}
+
+/* Chained Selector */
+.recipe.title {
+    color: red;
+}
+
+
+/* Inheritance */
+#parent {
+    color: red;
+}
+
