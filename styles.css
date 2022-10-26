@@ -1,3 +1,5 @@
+/* This Style Sheet is the Web Challenge 4 */
+
 /* ID selector */
 #title {
     background-color: red;
@@ -38,4 +40,10 @@ h1{
 #parent {
     color: red;
 }
+
+/* Descendant Combinator */
+.ancestor .contents {
+    text-align: center;
+    color: blueviolet
+  }
 

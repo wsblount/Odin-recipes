@@ -11,9 +11,11 @@
     <div id="title"><h1>Odin Recipes</h1></div>
 <ul>
     <div class="list_items">    
-    <li><a href="recipes/chocolatechipcookies.html">Chocolate Chip Cookies</a></li>
-    <li><a href="recipes/Italiansausagelasagna.html">Italian Sausage Lasagna</a></li>
-    <li><a href="recipes/onepanwhitecheddarmacandcheese.html">One Pan White Cheddar Mac and Cheese</a></li>
+    <ul>    
+        <li><a href="recipes/chocolatechipcookies.html">Chocolate Chip Cookies</a></li>
+        <li><a href="recipes/Italiansausagelasagna.html">Italian Sausage Lasagna</a></li>
+        <li><a href="recipes/onepanwhitecheddarmacandcheese.html">One Pan White Cheddar Mac and Cheese</a></li>
+    </ul>
     </div>    
 </ul>
 
@@ -26,7 +28,15 @@
 <div id="parent"><p>This is the parent, this is an example of inheritence</p>
     <div class="child"><p>This is the child, it inherits text color from the parent div. Lorem ipsum dolor sit amet, consectetur adipiscing elit,.</p></div>    
 </div>
-
+<!--Filler Text to satisfy Descedant Combinator Example Criteria-->
+<div class="ancestor"> <h1> Descendant Combinator</h1>
+    <div class="contents"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <!-- B -->
+      <div class="contents"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><!-- C -->
+      </div>
+    </div>
+  </div>
+  
+  <div class="contents"></div> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><!-- D -->
 
 </body>
 </html>
